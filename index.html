@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid wish</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <!-- Particale js -->
+ <div id="particles-js"></div>
+
+
+
+<!-- Image Section -->
+
+<div class="slimeImageSection">
+    <h5 class="animate__animated animate__backInDown">Touch Me</h5>
+    <p>ASHIK</p>
+    <img src="image/smile.png" alt="smile.png" 
+    class="animate__animated animate__pulse imageAction"/>
+</div>
+
+
+
+
+
+<!-- left profile -->
+
+<marquee class="m1" behavior="scroll" direction="up">
+    <div class="leftprofile">
+        <img src="image/as1.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="leftprofile">
+        <img src="image/as2.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    
+    <div class="leftprofile">
+        <img src="image/as3.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    <div class="leftprofile">
+        <img src="image/as4.png" class="rounded-circle" alt="" srcset="">
+    </div >
+
+    <div class="leftprofile">
+        <img src="image/as5.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    <div class="leftprofile">
+        <img src="image/as6.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="leftprofile">
+        <img src="image/as7.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="leftprofile">
+        <img src="image/as8.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="leftprofile">
+        <img src="image/as9.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="leftprofile">
+        <img src="image/as10.png" class="rounded-circle" alt="" srcset="">
+    </div>
+</marquee>
+    
+
+
+
+<!-- left profile -->
+
+<marquee class="m2" behavior="scroll" direction="down">
+    <div class="rightprofile ">
+        <img src="image/as1.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="rightprofile">
+        <img src="image/sub1.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    
+    <div class="rightprofile">
+        <img src="image/sub2.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    <div class="rightprofile">
+        <img src="image/sub3.png" class="rounded-circle" alt="" srcset="">
+    </div >
+
+    <div class="rightprofile">
+        <img src="image/sub4.png" class="rounded-circle" alt="" srcset="">
+    </div>
+    <div class="rightprofile">
+        <img src="image/sub5.png" class="rounded-circle" alt="" srcset="">
+    </div>
+
+    <div class="rightprofile">
+        <img src="image/as7.png" class="rounded-circle" alt="" srcset="">
+    </div>
+</marquee>
+
+
+
+
+<!-- Wish box -->
+
+
+    <div class="wishBox">
+        <div class="row">
+          <div class="col-12 mb-2">
+            <h5 class="wishPerson">aashiq banaya</h5>
+          </div>
+         </div>
+          <div class="row">
+             <div class="col-sm-12 col-md-6 m-auto">
+                 <img src="image/wish2.png" alt="" style="animation: pulse 2.5s infinite" class="wishImage1">
+             </div>
+          </div>
+          <div class="row">
+             <div class="col-sm-4 col-md-6 m-auto">
+                 <img src="image/eid4.png" alt="" style="animation: tada 4s infinite;" class="wishImage2">
+              </div>
+          </div>
+       
+     </div>
+
+
+
+     <footer>
+         <div class="footerWrap">
+          <p>Develope by Nazmul Islam ador</p>
+         </div>
+     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Partical js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+
+<script>
+
+
+
+// Image click event
+
+document.querySelector(".imageAction").addEventListener('click',function(){
+
+
+  // all component section
+ let myBody = document.getElementsByTagName("body")[0];
+
+let animateBox = document.querySelector(".slimeImageSection");
+
+let marqueLeft = document.querySelector(".m1");
+
+let marqueRight = document.querySelector(".m2");
+
+let wishWrap  = document.querySelector(".wishBox");
+
+// display none this section
+
+
+animateBox.style.display='none';
+myBody.style.backgroundColor='#2C3A47';
+marqueLeft.style.display='block';
+
+marqueRight.style.display='block';
+
+wishWrap.style.display='block';
+
+
+
+particlesJS("particles-js", {"particles":{"number":{"value":400,"density":{"enable":true,"value_area":800}},"color":{"value":"#fff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":500,"color":"#ffffff","opacity":0.4,"width":2},"move":{"enable":true,"speed":2,"direction":"bottom","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":0.5}},"bubble":{"distance":400,"size":4,"duration":0.3,"opacity":1,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+
+
+});
+
+</script>
+
+</body>
+</html>
